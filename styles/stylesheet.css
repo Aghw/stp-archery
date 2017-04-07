@@ -1,0 +1,747 @@
+* {box-sizing: border-box;}
+
+html { font-size: 16px;}
+
+:root {
+  /*--body-bgd: rgb(160, 207, 139);*/
+  --body-bgd: rgb(21, 128, 191);
+  /*--header-footer-bgd: rgb(23,90,174);*/
+  --header-footer-bgd: rgb(255,255,242);
+  /*--main-space-bgd: rgb(127,102,120);*/
+  --main-space-bgd: rgb(127,102,74);
+  /*--main-space-bgd: rgb(207,166,120);*/
+  /*--main-space-bgd: rgb(191,185,23);*/
+  /*--main-space-bgd: rgb(191,142,56);*/
+}
+
+
+
+body {
+   /*background-color: #A99490;*/
+   /*background-color: rgb(160, 207, 139);*/
+   background-color: var(--body-bgd);
+   position:relative;
+   margin: 0 auto;
+   /*width: 70%;*/
+}
+
+
+#primary-content {
+  font-family: 'Syncopate', sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  padding: 0 2rem;
+}
+
+#primary-content::first-letter {
+   font-size: 5rem;
+}
+
+
+/**
+ ** Page-header of Archery web pages
+ **/
+.company-main-header {
+  margin: 0 auto;
+
+  /*background-color: rgba(130, 143, 196, 0.71);*/
+  background-color: var(--header-footer-bgd);
+  color: rgb(43,23,255);
+
+}
+
+.header-logo-and-title {
+
+    display:flex;
+    flex-direction: row;
+}
+
+  .sub-section-heading {
+    width: 100%
+  }
+
+
+  header p {
+    font-size: 1.5rem;
+    line-height: 0.1rem;
+  }
+
+  footer p {
+
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .header-footer-link {
+    color: red;
+  }
+
+  footer h3 {
+    margin: 1rem 0;
+    line-height: 0.7rem;
+  }
+
+
+
+  header p {
+    font-size: 1.5rem;
+    line-height: 0.1rem;
+  }
+
+  footer p {
+
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .header-footer-link {
+    color: red;
+  }
+
+  footer h3 {
+    margin: 1rem 0;
+    line-height: 0.7rem;
+  }
+
+
+/**
+ ** navigation bar
+ **/
+.archery-menu-navigation-bar {
+  background-color: rgb(207,166,120);
+  margin: 0;
+  width: 100%;
+  padding: 1em 1rem;
+}
+
+.archery-menu-navigation-bar li {
+  display: inline;
+
+  font-size: 1.2rem;
+  text-shadow: 0 0 0.1rem #333;
+}
+
+.archery-menu-navigation-bar a {
+  color: #F2F2F2;
+  text-align: center;
+  padding: 0.7rem 1rem;
+  text-decoration: none;
+}
+
+.archery-menu-navigation-bar a:active {
+  background-color: yellow;
+  color: white;
+}
+
+/* change the color of link on hover*/
+.archery-menu-navigation-bar a:hover {
+  background-color: #DDD;
+  color: black;
+  border-radius: 3%;
+}
+
+/**
+ **
+ **/
+.company-main-logo {
+  position: relative;
+  left:1rem; top: 1rem;
+  width: 5rem;
+  height: 5rem;
+  margin: 0 1rem 0 0;
+}
+
+
+
+
+.main-space-container {
+  background-color: var(--main-space-bgd);
+  margin: 0 auto;
+  width: 70%;
+  padding: 2rem;
+
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.main-space-container h2 {
+  font-weight: 700;
+  font-family: Tahoma, sans-serif;
+  font-size: 1.5rem;
+  margin: auto;
+  top: 0;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+
+.sub-section-heading h2 {
+    font-family:'Syncopate', Trebuchet, Arial,  Helevetica sans, sans-serif;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    text-align:center;
+    padding: 2rem 0;
+    color: white;
+}
+
+.sub-section-heading h2 {
+   /* Transition of the images takes place
+     because of the following instruction */
+   transition: all 1s ease 0s;
+}
+
+.sub-section-heading h2:hover {
+  /*height: 120%; width: 120%;*/
+  color: gold;
+  font-size: 3rem;
+}
+
+/*
+.archery-without-sizing-container p {
+  font-size: 1rem;
+  text-align: left;
+  padding: 0.5rem 0.5rem;
+  color: lightgray;
+}*/
+
+/*.archery-partial-page-container {
+  position: relative;
+  border: 0.05rem solid skyblue;
+
+  height: 15rem;
+  width: 25%;
+
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+
+  border-radius: 10%;
+
+}*/
+
+
+.container-main-page {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.container-main {
+  background-color: white;
+  margin: 0 auto;
+  width: 100%;
+  padding: 2rem;
+
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+
+
+/**
+ **
+ ** Staff and instructors profile
+ **/
+ .staff-and-instructors-container {
+   display: flex;
+   width: 100%;
+
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   padding: 1rem 0;
+ }
+
+ .instructor-profile {
+   display: flex;
+   border: 0.05rem dashed gray;
+   width: 100%;
+   flex-direction: row;
+   margin: 0.5rem auto;
+ }
+
+ .instructor-name-and-photo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem 0 0 1rem;
+ }
+
+ .instructor-name-and-photo h2 {
+   font-weight: lighter;
+   font-size: 1.5rem;
+   margin: auto;
+   top: 0;
+   text-align: center;
+   padding-bottom: 0.5rem;
+ }
+
+.instructor-name-and-photo img {
+  width: 100%
+}
+
+.instructor-pose {
+   /* Transition of the images takes place
+     because of the following instruction */
+   transition: all 1s ease 0s;
+}
+
+.instructor-pose:hover {
+  height: 120%; width: 120%;
+}
+
+
+.instructor-profile p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  width: 100%;
+  text-align: left;
+  /*padding-left: 0;*/
+  color: rgba(17, 26, 33, 0.69);
+  padding: 5rem 1rem 0 2rem;
+}
+
+/**
+ **
+ ** Classes and their schedule
+ **/
+ .classes-info {
+   display: flex;
+   height: 70%;
+
+   flex-direction: row;
+   justify-content: space-between;
+ }
+
+ .class-detail {
+   border: 0.05rem dashed gray;
+   flex-direction: row;
+   width: 100%;
+   display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+ }
+
+ .class-detail img {
+   width: 70%;
+   padding: 1rem 0 0 0.5rem;
+ }
+
+
+
+/*
+ .class-activity-picture img {
+
+ }*/
+
+
+
+.class-activity-demo {
+   /* Transition of the images takes place
+     because of the following instruction */
+   transition: all 1s ease 0s;
+}
+
+.class-activity-demo:hover {
+  height: 100%; width: 100%;
+}
+
+.class-detail-info {
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem 0 0 1rem;
+}
+
+.class-detail-info h2 {
+  font-weight: 600;
+  font-size: 1rem;
+  text-align:justify;
+  padding: 0 1rem;
+}
+
+.class-detail-info p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  text-align: left;
+  color: rgba(17, 26, 33, 0.69);
+  padding:0 1rem 0 1rem;
+}
+
+
+.class-detail-info h3 {
+  font-weight: 300;
+  font-size: 1rem;
+  margin: auto;
+  top: 0;
+  text-align:justify;
+  padding: 1rem 0 0 1rem;
+}
+
+/**
+ **
+ ** About
+ **/
+ .company-mission-and-history {
+   display: flex;
+   width: 100%;
+
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding-top: 1rem;
+ }
+
+.main-page-main-image {
+  display: flex;
+  width: 50%;
+
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.main-page-main-image img {
+  width: 100%
+
+}
+
+
+.main-page-main-contact-info {
+  border: 0.01rem dashed brown;
+}
+
+.main-page-main-contact-info h2 {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: auto;
+  top: 0;
+  text-align:justify;
+  padding: 0 1rem;
+}
+
+.main-page-main-contact-info h3 {
+  font-weight: 300;
+  font-size: 1rem;
+  margin: auto;
+  top: 0;
+  text-align:justify;
+  padding: 1rem 0 0 1rem;
+}
+
+.main-page-main-contact-info p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  text-align: left;
+  color: rgba(17, 26, 33, 0.69);
+  padding: 0  1rem 0 1rem;
+
+}
+
+.main-page-image {
+  /* Transition of the images takes place
+    because of the following instruction */
+  transition: all 1s ease 0s;
+}
+
+.main-page-image:hover {
+  height: 120%; width: 120%;
+}
+
+.histoy-and-mission {
+  display: flex;
+  width: 100%;
+  border: 0.05rem dashed gray;
+
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem 0;
+  margin: 1rem auto;
+}
+
+.histoy-and-mission p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  text-align: left;
+  color: rgba(17, 26, 33, 0.69);
+  padding: 0  1rem 0 1rem;
+}
+
+histoy-and-mission h2 {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: auto;
+  top: 0;
+  text-align:center;
+  padding: 0 1rem;
+}
+
+
+.non-discrimination-disclaimer {
+  width: 100%;
+  background: #FFF999;
+  /*background-color: rgb(203, 159, 128);*/
+}
+
+.non-discrimination-disclaimer p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  text-align: left;
+  color: gray;
+  font-weight: lighter;
+  padding: 0  1rem 0 1rem;
+}
+
+.non-discrimination-disclaimer h2 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin: auto;
+  top: 0;
+  text-align:justify;
+  padding: 2rem 0 0 1rem;
+  color: gray;
+}
+
+
+
+/**
+ ** classes-schedule
+ **
+ **/
+ .class-and-schedules {
+   /*position: relative;*/
+
+   margin: 1rem 1rem;
+   text-align: center;
+   color: white;
+
+   display: block;
+   flex: none;
+
+ }
+
+ .classes-info {
+   /*position: relative;*/
+   /*width: 100%;*/
+   /*height: 10rem;*/
+   /*margin: 1rem auto;*/
+
+   display: flex;
+   flex-direction:row;
+   align-items: center;
+   justify-content: space-around;
+ }
+
+.archery-class-description {
+  position: relative;
+  border: 0.05rem solid skyblue;
+
+  width: 25%;
+  height: 100%;
+
+  border-radius: 5%;
+}
+
+.archery-class-description p {
+  font-size: 1rem;
+  text-align: left;
+  padding: 0.5rem 0.5rem;
+  color: lightblue;
+
+}
+
+.archery-class-photo {
+  position: relative;
+  width: 70%;
+  margin: 1rem auto;
+  border: 0.05rem solid skyblue;
+
+}
+
+.archery-class1-photo img {
+  width:100%;
+  margine:0 auto;
+  padding: 0 1.5rem;
+
+
+}
+
+
+/**
+ ** instructor profile
+ **
+ **/
+ .staff-profile {
+   width: 100%;
+   height: 10rem;
+    margin: 1rem auto;
+
+   display: flex;
+   flex-direction:row;
+   align-items: center;
+   justify-content: space-around;
+ }
+
+.instructor-info {
+  border: 0.05rem solid skyblue;
+
+  width: 25%;
+  height: 100%;
+
+}
+
+.instructor-photo {
+  width: 70%;
+  border: 0.05rem solid skyblue;
+}
+
+
+/**
+ **
+ ** Grid for students-profile
+ **/
+ .content {
+
+   background: #eee;
+   font-size: 2rem;
+   padding: 1rem;
+   text-align: center;
+ }
+
+ /* Anything can be a grid! */
+ .grid {
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+ /* telling css that columns shouldn't flex, but auto cells should */
+ .grid > [class^="grid-"] { flex: none; }
+ .grid > .grid-cell { flex: 1; }
+
+
+
+ /* relative widths for each column size */
+ .grid-col-1  { width: 8.3333%; }
+ .grid-col-2  { width: 16.6667%; }
+ .grid-col-3  { width: 25%; }
+ .grid-col-4  { width: 33.3333%;   }
+ .grid-col-5  { width: 41.6667%; }
+ .grid-col-6  { width: 50%; }
+ .grid-col-7  { width: 58.3333%; }
+ .grid-col-8  { width: 66.6667%; }
+ .grid-col-9  { width: 75%; }
+ .grid-col-10 { width: 83.3333%; }
+ .grid-col-11 { width: 91.6667%; }
+
+ /* Adding gutters to the grid */
+ .grid-guttered > [class^="grid-"] {
+   padding: 1rem 1rem 0 0;
+ }
+
+ .grid-guttered > [class^="grid-"]:last-child {
+   padding-right: 0;
+ }
+
+ /* make any element's content vertically & horizontally centered */
+ /* this is great for links & buttons */
+ .centered-content {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+
+ .grid-col-3  >  .content {
+   background-color:  rgb(207,166,120);
+   border: 0.05rem dashed lightgray;
+   border-radius: 10px;
+   height: 5rem;
+ }
+
+
+ .grid-col-4  >  .content {
+   background-color:  rgb(207,166,120);
+   border-radius: 10px;
+ }
+
+
+
+ .login-to-account {
+   right: 1rem;
+ }
+
+
+ .grid-col-4 > .content h2 {
+   font-size: 1rem;
+   font-weight: 500;
+   margin: auto;
+   flex: auto;
+   padding-left: 1rem;
+   text-align: justify;
+ }
+
+ .grid-col-4 > .content p {
+   font-size: 1rem;
+   font-family: Trebuchet, Arial, Helevetica sans, sans-serif;
+
+   background-color: silver;
+   border: 0.05rem dashed lightgray;
+   border-radius: 10px;
+   margin: auto;
+   flex: auto;
+   padding-left: 1rem;
+   text-align: justify;
+ }
+
+
+
+/**
+ **
+ ** testing block
+ **/
+ .my-test-block {
+   width: 100%;
+   border-color: 0.4rem solid yellow;
+ }
+
+ .login-to-account:hover {
+   color: yellow;
+   font-size: 1.5rem;
+ }
+
+ /**
+  ** Page-footer of Archery web pages
+  **/
+ .company-main-footer {
+   background-color: var(--header-footer-bgd);
+   /*color: rgb(43,23,255);*/
+   font-size: 1rem;
+   color: black;
+   padding: 0.2em 1em 1em 2em;
+ }
+
+ .company-main-footer h3 {
+   text-align: center;
+   font-size: 0.8rem;
+ }
+
+ .company-main-footer p {
+   /*text-align: center;*/
+   font-size: 1rem;
+   color: black;
+ }
