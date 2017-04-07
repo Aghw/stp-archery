@@ -2,24 +2,28 @@
 
 html { font-size: 16px;}
 
-:root {
+/*:root {*/
   /*--body-bgd: rgb(160, 207, 139);*/
-  --body-bgd: rgb(21, 128, 191);
+  /*--body-bgd: rgb(21, 128, 191);*/
   /*--header-footer-bgd: rgb(23,90,174);*/
-  --header-footer-bgd: rgb(255,255,242);
+  /*--header-footer-bgd: rgb(255,255,242);*/
   /*--main-space-bgd: rgb(127,102,120);*/
-  --main-space-bgd: rgb(127,102,74);
+  /*--main-space-bgd: rgb(127,102,74);*/
+
+
+
   /*--main-space-bgd: rgb(207,166,120);*/
   /*--main-space-bgd: rgb(191,185,23);*/
   /*--main-space-bgd: rgb(191,142,56);*/
-}
+/*}*/
 
 
 
 body {
    /*background-color: #A99490;*/
    /*background-color: rgb(160, 207, 139);*/
-   background-color: var(--body-bgd);
+   /*background-color: var(--body-bgd);*/
+   background-color: rgb(21, 128, 191);
    position:relative;
    margin: 0 auto;
    /*width: 70%;*/
@@ -45,7 +49,8 @@ body {
   margin: 0 auto;
 
   /*background-color: rgba(130, 143, 196, 0.71);*/
-  background-color: var(--header-footer-bgd);
+  /*background-color: var(--header-footer-bgd);*/
+  background-color: rgb(255,255,242);
   color: rgb(43,23,255);
 
 }
@@ -159,7 +164,8 @@ body {
 
 
 .main-space-container {
-  background-color: var(--main-space-bgd);
+  /*background-color: var(--main-space-bgd);*/
+  background-color: rgb(127,102,74);
   margin: 0 auto;
   width: 70%;
   padding: 2rem;
@@ -706,7 +712,8 @@ histoy-and-mission h2 {
   ** Page-footer of Archery web pages
   **/
  .company-main-footer {
-   background-color: var(--header-footer-bgd);
+   /*background-color: var(--header-footer-bgd);*/
+   background-color: rgb(255,255,242);
    /*color: rgb(43,23,255);*/
    font-size: 1rem;
    color: black;
